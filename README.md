@@ -26,6 +26,7 @@ GPT_URL: 可修改为OpenAI的代理地址
 API_KEY: 修改为ChatGPT的ApiKey
 
 # 启动
+python model_api.py
 python app.py
 
 # 可视化调试可以浏览器打开 demo/user_input.html 或 127.0.0.1:5000
@@ -35,32 +36,15 @@ python app.py
 
 查阅详细的API文档和使用说明，请访问 [文档链接]。
 
-## 贡献
-
-非常欢迎和鼓励社区贡献。如果您想贡献代码，请遵循以下步骤：
-
-    Fork 仓库
-    创建新的特性分支 (git checkout -b feature/AmazingFeature)
-    提交更改 (git commit -m 'Add some AmazingFeature')
-    推送到分支 (git push origin feature/AmazingFeature)
-    开启Pull Request
-
-查看 [CONTRIBUTING.md](https://github.com/answerlink/IntelliQ/blob/main/CONTRIBUTING.md)  了解更多信息。
-
-
-
 ## License
 
 **Apache License, Version 2.0**
 
 ## 版本更新
 
-v1.3 2024-1-15 集成通义千问线上模型
+集成通义千问线上模型
 
-v1.2 2023-12-24 支持Qwen私有化模型
+支持Qwen私有化模型
 
-v1.1 2023-12-21 改造通用场景处理器；完成高度抽象封装；提示词调优
+改造通用场景处理器；完成高度抽象封装；提示词调优
 
-v1.0 2023-12-17 首次可用更新；框架完成
-
-v0.1 2023-11-23 首次更新；流程设计
